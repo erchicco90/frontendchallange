@@ -29,7 +29,7 @@ body{
     
 }
 .backimg{
-    background-image: url(../Frontendmentor/images/illustration-hero.svg);
+    background-image: url(/Frontendmentor/images/illustration-hero.svg);
    height:180px;
    background-size:cover;
    background-position: center;
