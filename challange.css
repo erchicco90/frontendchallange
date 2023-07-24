@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    max-width:400xp;
+}
+body{
+    background:url(../Frontendmentor/images/pattern-background-mobile.svg) no-repeat hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+    flex-direction: column;
+    min-height:100vh;
+   
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 1.3rem;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: center;
+    
+}
+.backimg{
+    background-image: url(../Frontendmentor/images/illustration-hero.svg);
+   height:180px;
+   background-size:cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.description h1{
+    font-weight: 900;
+    color: black;
+    padding:0.8em 1em;
+    font-size:1.3em;
+}
+.description h4{
+    text-align: center;
+    color:#858585;
+    line-height:1.6em;
+    font-size:0.9em;
+    padding:0 16px;
+}
+.price{
+    display: flex;
+    gap:24px;
+    align-items: center;
+}
+
+.plan{
+    display: flex;
+    padding:1.3em 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    margin:1.4em 1.8em;
+    border-radius: 8px;
+    font-size:14px;
+}
+.price p{
+    color:gray;
+    font-weight: 700;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.butt1{
+    box-shadow: 0 24px  hsl(225, 100%, 98%);
+    padding:16px;
+    color:white;
+    background:  hsl(245, 75%, 52%);
+    font-weight: 700;
+    margin:16px;
+    border:none;
+    border-radius:8px;
+    font-family: 'Red Hat Display';
+    width:85%;
+    cursor:pointer;
+}
+.butt1::after{
+    filter: blur(8px);
+}
+.butt2{
+    width:85%;
+    font-family: 'Red Hat Display';
+    background: white;
+    color:#858585;
+    font-weight: 900;
+    border:none;
+    margin-top:16px;
+    margin-bottom:24px;
+    cursor: pointer;
+}
+.attribution{
+    font-size:10px;
+    text-align: center;
+    }
+@media screen and (max-width:1440px){
+    body{
+        background: url(../Frontendmentor/images/pattern-background-desktop.svg) no-repeat hsl(225, 100%, 94%);;
+    }   
+    .container{
+        max-width:400px;
+    }
+}
