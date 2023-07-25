@@ -7,7 +7,7 @@ html{
     max-width:400xp;
 }
 body{
-    background:url(../Frontendmentor/images/pattern-background-mobile.svg) no-repeat hsl(225, 100%, 94%);
+    background:url(images/pattern-background-mobile.svg) no-repeat hsl(225, 100%, 94%);
     display: flex;
     justify-content: center;
     align-items: center;
